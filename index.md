@@ -7,7 +7,12 @@ Here is a list of my current projects that I am working on:
 #My Interests
 I'm interested in ...
 #My Blog
-I...
+<ul>
+  {% for post in site.posts %}
+  <li>
+    {% endfor &}
+  </li>
+</ul>
 #Get in Touch
 TBA...
 <p>The End.</p>
