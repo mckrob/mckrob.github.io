@@ -3,13 +3,15 @@
 <p> I am testing the use of GitHub via this Test Website.</p> 
 <p> I am in my final year of study.</p>
 #My Projects
-Here is a list of my current projects that I am working on:
+<p>Here is a list of my current projects that I am working on:
+</p>
 #My Interests
 I'm interested in ...
 #My Blog
 <ul>
   {% for post in site.posts %}
   <li>
+    <a href="{{ post.url}}">{{post.title}}</a>
     {% endfor &}
   </li>
 </ul>
